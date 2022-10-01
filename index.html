@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=styles.css rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+  <h1 id="title">Taboola Rasa Interview Survey</h1>
+</head>
+<body>
+  
+  <p id="description" class="intro">
+  Fill in this survey if you’d like to be considered for a <a href="https://taboolarasa.org" target=_blank">Taboola Rasa</a> interview.
+  </p>
+
+  <form id="survey-form" action="https://register-demo.freecodecamp.org">
+    
+    <fieldset>
+      <label id="name-label" for="name" class="question">Your name <input type="text" id="name" required placeholder="Enter your name" required></label>
+
+      <label id="email-label" for="email" class="question">Your email<input type="email" id="email" required placeholder="Enter your email address"></label>
+
+     <label id="number-label" for="number" class="question">Your age <input type="number" id="number" min="18" max="120" placeholder="Enter your age" required></label>
+    </fieldset>
+    <fieldset>
+   <label for="experience" class="label-textarea question">Tell us a bit about your mental health experience
+   <textarea id="experience" placeholder="Just tell us a little bit about what you’ve experienced. Feel free to mention diagnoses as well." required></textarea></label>
+    </fieldset>
+
+    <fieldset>
+      <label id="referrer-label" for="dropdown" class="label-dropdown question">How did you hear about us?
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">From a friend</option>
+          <option value="2">From social media</option>
+          <option value="3">From actively searching for information about mental health</option>
+        </select>
+      </label>
+    </fieldset>
+    
+    <fieldset>
+      <p class="question">Which type of interview are you open to? (select all that apply)</p>
+      <label for="twitch"><input type="checkbox" id="twitch" name="platform" value="twitch"> Twitch Interview</label>
+      <label for="podcast"><input type="checkbox" id="podcast" name="platform" value="podcast"> Podcast Interview</label>
+      <label for="written"><input type="checkbox" id="written" name="platform" value="written"> Written interview</label>
+    </fieldset>
+
+    <fieldset>
+      <p class="question">Are you open to being interviewed live?</p>
+      <label for="yes"><input type="radio" id="yes" name="interview" value="yes" checked> Yes</label>
+      <label for="no"><input type="radio" id="no" name="interview" value="no"> No</label>
+    </fieldset>
+    <input type="submit" id="submit" value="Submit"/>
+
+  
+
+     
+  </form>
+
+
+</body>
+
+<footer>
+  <p>Created by Kai Katschthaler for <a href="https://taboolarasa.org">Taboola Rasa</a>.</p>
+</footer>
+
+
+
+</html>
