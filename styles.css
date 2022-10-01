@@ -1,0 +1,92 @@
+body {
+  width: 90%;
+  height: 100vh;
+  background-color: #f8f8f8;
+  color: #175e79;
+  font-size: 16px;
+  font-family: Lora, georgia, times new roman, serif;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: Playfair Display, georgia, times new roman, serif;
+  color: #fdc652;
+  margin: 1em auto;
+}
+p {
+  text-align: left;
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #45bdcf;
+}
+
+a:hover {
+  color: #7ac5ad;
+}
+.intro {
+  text-align: center;
+}
+
+form {
+  width: 90vw;
+  max-width: 900px;
+  min-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+fieldset {
+  margin: 0.5em 0;
+  border: none;
+}
+label {
+  display: block;
+  margin: 0.2rem 0;
+}
+
+.label-dropdown,
+.label-textarea {
+  text-align: left;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  height: 2em;
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+textarea {
+  min-height: 7em;
+  margin: 5px 0 5px 0;
+}
+
+input[type="checkbox"],
+[type="radio"] {
+  width: unset;
+  display: inline;
+  vertical-align: middle;
+}
+.question {
+  font-weight: bold;
+}
+input[type="submit"] {
+  width: 40%;
+  display: block;
+  margin: 1em auto;
+  height: 2em;
+  border-radius: 15px;
+  background-color: #175e79;
+  border-color: #175e79;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Playfair Display, georgia, times new roman, serif;
+}
+footer {
+  margin: 2em auto;
+  font-size: 12px;
+}
